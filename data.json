@@ -1,0 +1,83 @@
+{
+    "client": [
+        {
+            "firstName": "Theo",
+            "lastName": "client",
+            "email": "t.m@gmail.com",
+            "phone": "4578894556",
+            "address": "webtech cafe",
+            "idDevis": []
+        }
+    ],
+    "devis": [
+        {
+            "name": "On essiaie",
+            "creationDate": "2023-11-23",
+            "validationDate": null,
+            "paymentDate": null,
+            "cancellationDate": null,
+            "idClient": 1,
+            "idCommercial": 1
+        }
+    ],
+    "commercial": [
+        {
+            "firstName": "Mio",
+            "lastName": "Theo",
+            "role": "Admin",
+            "email": "t.mail@gmail.com",
+            "idCategorys": [
+                1,
+                2
+            ],
+            "idDevis": null
+        }
+    ],
+    "product": [
+        {
+            "name": "gateaux",
+            "productCode": "XAB45",
+            "stock": 124578,
+            "idCategory": 4,
+            "idDetailsDevis": null
+        },
+        {
+            "name": "table",
+            "productCode": "SAJNS",
+            "stock": 12,
+            "idCategory": 3
+        }
+    ],
+    "category": [
+        {
+            "idCategory": 1,
+            "name": "tech",
+            "productIds": []
+        },
+        {
+            "idCategory": 2,
+            "name": "fleurs",
+            "productIds": []
+        },
+        {
+            "idCategory": 3,
+            "name": "meubles",
+            "productIds": []
+        },
+        {
+            "idCategory": 4,
+            "name": "animaux",
+            "productIds": [
+                3
+            ]
+        }
+    ],
+    "DetailsDevis": [
+        {
+            "price": 0.0,
+            "inventory": 7845,
+            "idDevis": 1, 
+            "idProduct": 10
+        }
+    ]
+}
