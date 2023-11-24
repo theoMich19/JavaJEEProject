@@ -1,0 +1,101 @@
+###
+GET http://localhost:8091/clients
+
+<> 2023-11-20T181736.500.json
+
+###
+GET http://localhost:8091/commercials
+
+###
+POST http://localhost:8091/commercials
+
+
+###
+GET http://localhost:8091/commercials/{{commercialId}}
+
+###
+PUT http://localhost:8091/commercials/{{commercialId}}
+
+###
+DELETE http://localhost:8091/commercials/{{commercialId}}
+
+###
+GET http://localhost:8091/detailsDevis
+
+###
+POST http://localhost:8091/detailsDevis
+
+###
+GET http://localhost:8091/detailsDevis/{{detailsDevisId}}
+
+###
+PUT http://localhost:8091/detailsDevis/{{detailsDevisId}}
+
+###
+DELETE http://localhost:8091/detailsDevis/{{detailsDevisId}}
+
+###
+GET http://localhost:8091/devis
+
+###
+POST http://localhost:8091/devis
+
+###
+GET http://localhost:8091/devis/byIds
+
+###
+GET http://localhost:8091/devis/{{devisId}}
+
+###
+PUT http://localhost:8091/devis/{{devisId}}
+
+###
+DELETE http://localhost:8091/devis/{{devisId}}
+
+###
+GET http://localhost:8091/products
+
+###
+POST http://localhost:8091/products
+
+###
+GET http://localhost:8091/products/{{productId}}
+
+###
+PUT http://localhost:8091/products/{{productId}}
+
+###
+DELETE http://localhost:8091/products/{{productId}}
+
+###
+GET http://localhost:8091/categories
+
+###
+POST http://localhost:8091/categories
+
+###
+GET http://localhost:8091/categories/byName/{{categoryName}}
+
+###
+GET http://localhost:8091/categories/{{categoryId}}
+
+###
+PUT http://localhost:8091/categories/{{categoryId}}
+
+###
+DELETE http://localhost:8091/categories/{{categoryId}}
+
+###
+GET http://localhost:8091/clients
+
+###
+POST http://localhost:8091/clients
+
+###
+GET http://localhost:8091/clients/{{clientId}}
+
+###
+PUT http://localhost:8091/clients/{{clientId}}
+
+###
+DELETE http://localhost:8091/clients/{{clientId}}
